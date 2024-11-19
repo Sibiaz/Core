@@ -1,16 +1,3 @@
-const swiper = new Swiper('.swiper', {
-  loop: true,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
-
-<script>
 document.addEventListener('DOMContentLoaded', function() {
     const fadeInElements = document.querySelectorAll('.fade-in');
 
@@ -24,4 +11,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
     fadeInElements.forEach(el => observer.observe(el));
 });
-</script>
