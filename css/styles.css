@@ -97,3 +97,31 @@ button:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+nav a {
+    color: #f3f4f6;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffcc00;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
