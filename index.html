@@ -1,70 +1,61 @@
+<header>
+  <h1>Отель "Уютный берег"</h1>
+  <nav>
+    <a href="#about">О нас</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#services">Услуги</a>
+    <a href="#offers">Акции</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
 
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Отель "Уютный берег"</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header>
-    <h1>Отель "Уютный берег"</h1>
-    <nav>
-      <a href="#about">О нас</a>
-      <a href="#gallery">Галерея</a>
-      <a href="#reviews">Отзывы</a>
-      <a href="#contacts">Контакты</a>
-    </nav>
-  </header>
-  
-  <div class="container">
-    <section id="about">
-      <h2>О нашем отеле</h2>
-      <p>Добро пожаловать в "Уютный берег" — идеальное место для отдыха и релаксации.</p>
-    </section>
+<section id="about">
+  <h2>О нашем отеле</h2>
+  <p>Добро пожаловать в "Уютный берег" — место, где комфорт и стиль встречаются с природной красотой.</p>
+</section>
 
-    <section id="gallery" class="gallery">
+<section id="services">
+  <h2>Услуги</h2>
+  <ul>
+    <li>SPA и велнес-центр</li>
+    <li>Бассейн с видом на море</li>
+    <li>Фитнес-центр</li>
+    <li>Ресторан с изысканной кухней</li>
+  </ul>
+</section>
+
+<section id="offers">
+  <h2>Акции и предложения</h2>
+  <p>Специальное предложение на выходные! Скидка 20% при бронировании от двух ночей.</p>
+</section>
+
+<section id="gallery" class="gallery">
   <h2>Галерея</h2>
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="https://picsum.photos/800/600?random=1" alt="Фото 1">
       </div>
-      <div class="swiper-slide">
-        <img src="https://picsum.photos/800/600?random=2" alt="Фото 2">
-      </div>
-      <div class="swiper-slide">
-        <img src="https://picsum.photos/800/600?random=3" alt="Фото 3">
-      </div>
-      <div class="swiper-slide">
-        <img src="https://picsum.photos/800/600?random=4" alt="Фото 4">
-      </div>
+      <!-- другие слайды -->
     </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
   </div>
 </section>
-    <section id="reviews" class="reviews">
-      <h2>Отзывы</h2>
-      <div class="review">
-        <p><strong>Анна:</strong> Отличное место для отдыха!</p>
-      </div>
-      <div class="review">
-        <p><strong>Иван:</strong> Прекрасный сервис и уютные номера.</p>
-      </div>
-    </section>
-  </div>
 
-  <footer id="contacts">
-    <p>Контакты: +7 123 456 7890 | уютныйберег@отель.ру</p>
-    <p>&copy; 2024 "Уютный берег". Все права защищены.</p>
-  </footer>
+<section id="reviews">
+  <h2>Отзывы</h2>
+  <blockquote>
+    <p>"Отличный сервис и уютные номера!"</p>
+    <cite>— Анна</cite>
+  </blockquote>
+</section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js"></script>
-  <script src="js/scripts.js"></script>
-</body>
-</html>
+<section id="contacts">
+  <h2>Контакты</h2>
+  <p>+7 (123) 456-78-90 | email@hotel.ru</p>
+  <p>Адрес: ул. Приморская, д. 1, Сочи</p>
+</section>
+
+<footer>
+  <p>© 2024 "Уютный берег". Все права защищены.</p>
+</footer>
