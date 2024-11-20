@@ -127,10 +127,11 @@ nav a:hover::after {
 }
 
 section ul li {
-    background: #f9f9f9;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 8px;
+     color: #333333; /* Тёмный текст для лучшей читаемости */
+    background: rgba(255, 255, 255, 0.8); /* Светлый фон с небольшим прозрачным эффектом */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
